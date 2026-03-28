@@ -1,14 +1,17 @@
 
 
+import React from 'react'
 import './App.css'
-import AutoCompleteSearch from './AutoCompleteSearch/Index'
+import ProgressBar from './ProgressBar/Index'
+
 
 function App() {
-
+ 
   return(
-    <>
-    <AutoCompleteSearch/>
-    </>
+
+    <ProgressBar/>
+
+    
   )
  
 }

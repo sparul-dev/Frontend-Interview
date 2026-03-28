@@ -1,0 +1,16 @@
+.outer_bar{
+    width: 200px;
+    height: 23px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 1px;
+    margin: 10px 0px;
+}
+
+.inner_bar{
+    height: 100%;
+    background-color: green;
+    width: 100px;
+    border-radius: 20px;
+    transition: width 0.05s linear;
+}
